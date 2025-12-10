@@ -21,7 +21,7 @@ After downloading this repository add a credentials.txt in the same directory as
 ```
 CLIENT_ID=offline-token
 CLIENT_SECRET=p1eL7uonXs6MDxtGbgKdPVRAmnGxHpVE
-OFFLINE_TOKEN=your_earthcare_longlasting_token_here
+OFFLINE_TOKEN=your_longlasting_token_here
 ```
 ### Important
 
