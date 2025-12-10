@@ -9,6 +9,13 @@ are supported and you have provided your access token they are directly download
 
 ## Prerequisities 
 
+## Credentials
+
+After downloading this repository add a credentials.txt in the same directory as the python module biofetch. 
+Here you will need to store ESA MAAP's CLIENT_ID, CLIENT_SECRET, and your 90-day personal offline token.
+
+The latter can be generated here: [ESA MAAP 90 day token](https://portal.maap.eo.esa.int/ini/services/auth/token/index.php)
+
 To run the main script and notebook, you must have the following dependencies installed:
 
 - requests: For making HTTP requests to download products.
