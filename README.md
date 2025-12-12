@@ -41,10 +41,10 @@ To run the main script and notebook, you will need to install specific python li
 
 --time (optional): Find the products that were acquired in a specific time range start_time/end_time
 
-To fetch Biomass Level 1a products acquired between 2025-07-03 00:00 and 2025-07-03 23:59 within a bounding box around Borneo (108.0,-4.66,119.0,8.05), an example CLI input would look like this:
+To fetch Biomass Level 1a products acquired between 2025-05-03 00:00 and 2025-12-03 23:59 within a bounding box around Borneo (108.0,-4.66,119.0,8.05), an example CLI input would look like this:
 
 ```
-python -m biofetch --ID BiomassLevel1aIOC --time 2025-07-03/2025-07-03 
+python -m biofetch --ID BiomassLevel1aIOC --time 2025-05-03/2025-12-03 --bbox 108.0 -4.66 119.0 8.05
 ```
 
 -------------------------------
