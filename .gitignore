@@ -8,7 +8,7 @@ __pycache__/
 .vscode/
 *BIO_
 
-credentials.txt
+biofetch/credentials.txt
 
 
 
