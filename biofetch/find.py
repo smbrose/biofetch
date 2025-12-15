@@ -71,8 +71,7 @@ def search_products(
         try:
             if len(bbox) != 4:
                 raise ValueError("BBOX must have exactly 4 values: [minLon, minLat, maxLon, maxLat]")
-            bbox_list = [float(coord) for coord in bbox]
-            search_kwargs["bbox"] = bbox_list
+            search_kwargs["bbox"] = bbox
             print(f"Using spatial filter: {search_kwargs['bbox']}")
         except ValueError as e:
             print(f"Invalid BBOX format: {e}")

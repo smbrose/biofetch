@@ -10,7 +10,7 @@ def parse_args():
         '--ID',
         type=str,
         required=True,
-        help="Selected collection (e.g. 'BiomassLevel2')"
+        help="Selected collection (e.g. 'BiomassLevel1bIOC')"
     )
     
     parser.add_argument(
@@ -22,7 +22,8 @@ def parse_args():
 
     parser.add_argument(
         '--bbox', 
-        type=str, 
+        nargs = 4,
+        type=float, 
         help="(Optional) Bounding box: 'westlon, minlat, eastlon, maxlat'"
     )
     
@@ -30,7 +31,6 @@ def parse_args():
 
 def main():
     args = parse_args()
-
     run_main(id=args.ID, time=args.time, bbox=args.bbox)
 
 if __name__ == "__main__":
