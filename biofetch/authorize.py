@@ -1,3 +1,6 @@
+from pathlib import Path
+import requests
+
 def get_access():
     """
     Prompt user for access token. 
@@ -14,9 +17,6 @@ def get_access():
     
     return access_token
 
-import os
-from pathlib import Path
-import requests
 
 # --- Path to credentials.txt --- 
 CREDENTIALS_FILE = Path(__file__).resolve().parent / "credentials.txt"

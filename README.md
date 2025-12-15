@@ -31,7 +31,10 @@ Here you will need to store ESA MAAP's CLIENT_ID, CLIENT_SECRET, and your 90-day
 The latter can be generated here: [ESA MAAP 90 day token](https://portal.maap.eo.esa.int/ini/services/auth/token/index.php)
 
 ## PREREQUISITES
-To run the main script and notebook, you will need to install specific python libraries. 
+To run the main script and notebook, you will need to install specific python libraries: 
+```
+pip install requests tqdm pystac-client
+``` 
 
 ## Download mode: Examples 
 
